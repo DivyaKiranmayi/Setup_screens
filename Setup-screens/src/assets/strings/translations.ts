@@ -1,0 +1,152 @@
+import { Injectable } from "@angular/core";
+@Injectable({
+  providedIn: 'root'
+})
+ export class Translations{
+    "Action.Create"= "Create";
+    "Action.Edit"= "Edit";
+    "Action.Delete"= "Delete";
+    "Action.Search"= "Search";
+    "Action.Add"= "Add";
+    "Action.OK"= "OK";
+    "Action.Cancel"= "Cancel";
+    "Action.Clear.ClearInformation"= "Clear";
+    "Action.ClearAll.ClearAllSettings"= "Clear All";
+    "Action.Save.SaveChanges"= "Save";
+    "Action.SaveandClose.SaveChangesandClose"= "Save and Close";
+    "Action.ShowMore.ShowMoreFields"= "Show More";
+    "Action.SaveandNew"= "Save and New";
+    "Action.Export"= "Export";
+    "Action.Done"= "Done";
+    "Action.Refresh"= "Refresh";
+    "Action.Submit"= "Submit";
+    "Action.ExporttoExcel" = "";
+    "Action.No"= "No";
+    "Action.Yes"= "Yes";
+    "Action.Discard"= "Discard";
+    "Action.Keep"= "Keep";
+
+    "AltTxt.EMail"= "Email";
+    "ColAttr.CreatedBy.Common.Common"= "Created By";
+    "ColAttr.CreationDate.Common.Common"= "Creation Date";
+    "ColAttr.LastUpdatedBy.Common.Common"= "Last Updated By";
+    "ColAttr.LastUpdateDate.Common.Common"= "Last Updated Date";
+    "Header.Warning.WarningMessage"= "Warning";
+
+    "Message.DeleteWarning.Summary"= "Permanently delete item?";
+    "Message.DeleteWarning.Detail"= "You won't be able to recover it.";
+    "Message.DirtyDataWarning.Summary"= "Discard changes?";
+    "Message.DirtyDataWarning.Detail"= "If you cancel; your edits will be discarded.";
+
+    "Message.Confirmation.Created"= "The item {ITEM} was created.";
+    "Message.Confirmation.Updated"= "The item {ITEM} was updated.";
+    "Message.Confirmation.Deleted"= "The item {ITEM} was deleted.";
+
+    "Message.Create.FundAttribute"= "The {FUND} fund and the {LEDGER} ledger were created.";
+    "Message.Create.TreasuryAccountSymbol"= "The treasury account symbol {TREASURY_ACCOUNT_SYMBOL} has been created.";
+    "Message.Create.AgencyLocationCode"= "The code {CODE} has been created.";
+    "Message.Create.PaymentTypeMapping"= "The {PAYMENT_FORMAT} payment format and the {PAY_GROUP} pay group were created.";
+    "Message.Create.FedOptions"= "The business unit {BUSINESS_UNIT} has been created.";
+    "Message.Create.FederalAccountSymbol"= "The {AGENCY_IDENTIFIER} agency identifier and the {MAIN_ACCOUNT_CODE} main account code were created.";
+
+    "Message.Delete.FundAttribute"= "The {FUND} fund and the {LEDGER} ledger were deleted.";
+    "Message.Delete.TreasuryAccountSymbol"= "The treasury account symbol {TREASURY_ACCOUNT_SYMBOL} has been deleted.";
+    "Message.Delete.AgencyLocationCode"= "The code {CODE} has been deleted.";
+    "Message.Delete.PaymentTypeMapping"= "The {PAYMENT_FORMAT} payment format and the {PAY_GROUP} pay group were deleted.";
+    "Message.Delete.FedOptions"= "The business unit {BUSINESS_UNIT} has been deleted.";
+    "Message.Delete.FederalAccountSymbol"= "The {AGENCY_IDENTIFIER} agency identifier and the {MAIN_ACCOUNT_CODE} main account code were deleted.";
+
+    "Message.Search.FundAttribute"= "Search by fund or ledger";
+    "Message.Search.TreasuryAccountSymbol"= "Search by treasure account symbol";
+    "Message.Search.AgencyLocationCode"= "Search by code or name";
+    "Message.Search.PaymentTypeMapping"= "Search by payment format or pay group";
+    "Message.Search.FedOptions"= "Search by business unit";
+    "Message.Search.FederalAccountSymbol"= "Search by agency; main account; or title";
+
+    "Header.ManageAgencyLocationCodes"= "Manage Agency Location Codes";
+    "ColAttr.AgencyType"= "Type";
+    "ColAttr.AgencyLocationName"= "Name";
+    "ColAttr.AgencyLocationCode"= "Code";
+    "ColAttr.DisbursingType"= "Disbursing Type";
+    "Header.CreateAgencyLocationCode"= "Create Agency Location Code";
+    "Header.EditAgencyLocationCode"= "Edit Agency Location Code";
+    "Header.AgencyLocationCode"= "Agency Location Code";
+    "Header.ManageFederalAccountSymbols"= "Manage Federal Account Symbols";
+    "ColAttr.AgencyIdentifier"= "Agency Identifier";
+    "ColAttr.Title"= "Title";
+    "Header.EditFederalAccountSymbol"= "Edit Federal Account Symbol";
+    "Header.CreateFederalAccountSymbol"= "Create Federal Account Symbol";
+    "Header.FederalAccountSymbol"= "Federal Account Symbol";
+    "Action.ViewTAS"= "View TAS";
+    "Action.CreateTAS"= "Create TAS";
+    "ColAttr.MainAccountCode"= "Main Account Code";
+    "ColAttr.AllowNonFederalException"= "Allow Non-Federal Exception";
+    "Header.ManageFederalSetupOptions"= "Manage Federal Options";
+    "ColAttr.BusinessUnit"= "Business Unit";
+    "ColAttr.FederalEmployerNumber"= "Federal Employer ID Number";
+    "ColAttr.AgencyAbbreviation"= "Agency Abbreviation";
+    "ColAttr.DefaultInterestReason"= "Default Interest Reason";
+    "ColAttr.DefaultDiscountLostReason"= "Default Discount Lost Reason";
+    "Header.FederalOptions"= "Federal Options";
+    "Header.PaymentFormatMapping"= "Payment Format Mapping";
+    "ColAttr.PaymentFormat"= "Payment Format Code";
+    "ColAttr.PayGroup"= "Pay Group";
+    "ColAttr.PaymentType"= "Payment Type Code";
+    "ColAttr.CheckType"= "Check Type";
+    "ColAttr.ElectronicFormatType"= "Electronic Type";
+    "ColAttr.WireFlag"= "Wire";
+    "Header.PaymentTypeMapping"= "Payment Type Mapping";
+    "Header.ManagePaymentTypeMapping"= "Manage Payment Type Mapping";
+    "Header.PAM"= "PAM";
+    "Header.SPS"= "SPS";
+    "Header.ManageFundAttributes"= "Manage Fund Attributes";
+    "ColAttr.Ledger"= "Ledger";
+    "ColAttr.TreasuryAccountSymbol"= "Treasury Account Symbol";
+    "ColAttr.FundCode"= "Fund";
+    "ColAttr.FedAccountSymbolTitle"= "Manage Setup Federal Account Symbol";
+    "ColAttr.ApportionmentCategory"= "Apportionment Category Code";
+    "ColAttr.DirectOrReimbursable"= "Direct or Reimbursable Code";
+    "ColAttr.BudgetEnforcementAct"= "Budget Enforcement Act Category Code";
+    "ColAttr.OutlaysBeaCategory"= "Outlays BEA Category Code";
+    "ColAttr.CustodialOrNonCustodial"= "Custodial or Non-Custodial Code";
+    "ColAttr.DefiniteOrIndefiniteAuthority"= "Definite or Indefinite Authority";
+    "ColAttr.BorrowingSource"= "Borrowing Source Code";
+    "ColAttr.BudgetSubfunction"= "Budget Sub-Function Code";
+    "ColAttr.CopyFund"= "Copy fund attributes to next year";
+    "ColAttr.NextYearFund"= "Next Year Fund";
+    "ColAttr.RequisitionClosingMethod"= "Requisition Closing Method";
+    "Header.FundAttribute"= "Fund Attribute";
+    "Header.YearEnd"= "Year End";
+    "Header.ManageTreasuryAccountSymbols"= "Manage Treasury Account Symbols";
+    "ColAttr.FederalAccountSymbol"= "Federal Account Symbol";
+    "ColAttr.SubLevelPrefixCode"= "Sub-Level Prefix";
+    "ColAttr.AllocationTransferAgency"= "Allocation Transfer Agency Identifier";
+    "ColAttr.AuthorityDuration"= "Authority Duration Code";
+    "ColAttr.BeginYearOfAvailability"= "Beginning Period of Availability";
+    "ColAttr.EndingPeriodOfAvailability"= "Ending Period of Availability";
+    "ColAttr.AvailabilityType"= "Availability Type Code";
+    "ColAttr.SubAccountCode"= "Sub-Account Code";
+    "ColAttr.FinancingAccount"= "Financing Account Code";
+    "ColAttr.ReportingType"= "Reporting";
+    "ColAttr.AllowPriorYearAccounting"= "Allow Prior Year Accounting";
+    "ColAttr.EndDate"= "End Date";
+    "ColAttr.ExpirationDate"= "Expiration Date";
+    "ColAttr.CancellationDate"= "Cancellation Date";
+    "ColAttr.FundType"= "Fund Type";
+    "ColAttr.StartDate"= "Start Date";
+    "ColAttr.CopyTAS"= "Copy TAS to next year";
+    "Header.TASComponents.ManageSetupTASComponents"= "TAS Components and Attributes";
+    "Action.ViewFunds"= "View Funds";
+    "Action.AddFund"= "Add Fund";
+    "Header.BusinessEventTypeCodes"= "Business Event Type Codes";
+    "ColAttr.TASComponents"= "TAS Components";
+    "ColAttr.TASAttributes"= "TAS Attributes";
+
+    "Header.ReportingAgency"= "Reporting Agency";
+    "Header.Payments"= "Payments";
+    "ColAttr.PaymentorCollection"= "Payment or Collection";
+    "ColAttr.AdjustmentBETC"= "Adjustment BETC";
+    "ColAttr.Default"= "Default";
+    "ColAttr.BetcName"= "Name";
+    "ColAttr.BetcCode"= "Code"
+  }
